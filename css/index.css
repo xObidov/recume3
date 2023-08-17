@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/1660117069_1-kartinkin-net-p-fon-dlya-shkolnogo-saita-krasivo-1.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    
+}
+.container {
+box-shadow: 0px 0px 5px white ;
+width:420px;
+height: 580px;
+align-items: center;
+justify-content: center;
+margin: 100px auto;
+border-radius: 12px;
+padding-top: 15px;
+border: solid #fff;
+}
+.input__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#input{
+    width: 270px;
+    height: 15px;
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px white;
+    
+}
+#btn{
+  width: 70px;
+  height: 40px ;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 0px 5px white;
+  margin-left: 10px;
+}
+#btn:active{
+    opacity: 0.9;
+
+}
+#list{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    padding-top: 30px ; 
+    font-family: sans-serif;
+    color: #000;
+}
+.gt{
+    margin: 20px;
+    margin-top: 30px;
+    color: aliceblue;
+    text-align: center;box-shadow: 0px 0px 10px white;
+
+}
+.nert{
+    width: 300px;
+    height: 400px;
+    border: solid groove;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.619);
+    border-radius: 8px;
+    color: aliceblue;
+    box-shadow: 0px 0px 5px white;
+}
+/* ----------------------------------------------------------------MEDIA------------------------------------------------------------------- */
+@media(max-width:489px){
+    .container{
+        width: 390px;
+    }
+}
+@media(max-width:437px){
+    .container{
+        width: 360px;
+    }
+}
